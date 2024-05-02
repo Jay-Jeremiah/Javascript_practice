@@ -1,0 +1,9 @@
+Javascript language can display data in the following ways:
+    Writing into an HTML element using innerHTML
+    Writing into the HTML output using document.write()
+    windows.alert() is used for writing in an alert box
+    console.log() is used in writing into the browser console.
+
+Note: We should note that Javascript doesn't have any print methods
+But there is a function that enables one print the current window content
+which is 'window.print'

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentWrite</title>
+</head>
+<body>
+    <h2>My first Javascript</h2>
+    <p>A paragraph</p>
+
+
+<!-- Never call a document.write after the document has 
+    finished loading. It will overwrite the whole document-->
+    <script>
+        document.write(5 + 6);
+    </script>
+</body>
+</html>

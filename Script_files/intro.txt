@@ -1,0 +1,12 @@
+In Html, the Javascript is entered through three ways namely:
+    inline
+    internal
+    external
+
+Inline Javascript is where the Javascript code is written in the tags next to the HTML elements
+
+Internal Javascript is where the code is written in between script tags whereby the script tags are placed
+in the head or body sections 
+
+External Javascript is whereby the whole Javascript code is written entirely on a different page from the
+HTML file. This file is usually named with an extension of.js 

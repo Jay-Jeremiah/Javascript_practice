@@ -1,0 +1,30 @@
+<!--We learn that Javascript can change the content of HTML attribute-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Javascript</title>
+</head>
+
+<!--Here we see that Javascript finds the HTML content(with id="demo", id="Hello") and changes their content using 
+the innerHTML attribute. -->
+<body>
+    <h2>My First Javascript</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Date and time</button>
+    <button type="button"onclick="document.getElementById('Hello').innerHTML='Hello Javascript'">Hello</button>
+    <p id="demo"></p>
+    <p id="Hello"></p>
+</body>
+</html>
+
+
+<!-- Javascript can used to change the style of an HTML element in CSS syntax-->
+<p id="demo1">I love pizza</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize ='35px'">Click Me</button>
+
+<!--Javascript can also hide the elements-->
+
+<p id="demo2">This paragraph is hidden</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Here</button>
