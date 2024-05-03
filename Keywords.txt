@@ -1,0 +1,19 @@
+Keywords used in Javascript
+
+var - Declares a variable
+
+let - Declares a block variable
+
+const - Declares a block constant
+
+if - Makes a block of code to be executed on a condition 
+
+switch - Makes a block of code to be executed in dierent cases
+
+for  - Makes a block of code to be executed in a loop
+
+function - Declares a function
+
+return - implements the function 
+
+try - implements error handling to a block of code

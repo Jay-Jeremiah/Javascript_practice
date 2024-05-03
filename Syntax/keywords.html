@@ -1,0 +1,44 @@
+<!--Keywords identify the actions to be performed.-->
+
+<!--let and var create variables-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let, Const and var in Javascript</title>
+</head>
+<body>
+    <h3>Let, Const and Var</h3>
+
+    <!--demo for let, demo1 for var, demo2 for const, demo3 for a mixture-->
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        let x,y;
+        x = 5 + 6;
+        y = x * 10;
+        document.getElementById('demo').innerHTML = y;
+
+        var p,q;
+        p = 12 - 4;
+        q = p/2;
+        document.getElementById('demo1').innerHTML = q;
+
+        const r = 45;
+        const s = 21;
+        const t = r * s;
+        document.getElementById('demo2').innerHTML = t;
+        
+        const price1 = 5000;
+        const price2 = 8000;
+        let total = price1 + price2;
+        document.getElementById('demo3').innerHTML = "The total price is" + total;
+
+        
+    </script>
+</body>
+</html>
