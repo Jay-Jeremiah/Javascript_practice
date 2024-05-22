@@ -8,6 +8,7 @@
 <body>
     <h1>Objects</h1>
     <p id="demo"></p>
+    <p id="demo1"></p>
     <script>
         const person = {
             firstName:"Harry",
@@ -16,6 +17,7 @@
         };
 
         document.getElementById('demo').innerHTML = "The last name is" +  " " + person.lastName;
+        document.getElementById('demo1').innerHTML = "His ID is: " + " " + person['id']
     </script>
 </body>
 </html>
