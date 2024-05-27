@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascipt Objects</title>
+</head>
+<body>
+    <h2>Objects</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        function reg(name,id,campus,program){
+            this.Name = name;
+            this.id = id;
+            this.loc = campus;
+            this.prog = program;
+        }
+
+        const student1 = new reg('Harry','b24313','Mukono','BSIT');
+
+        const student2 = new reg('Atom','B24299','Mbale','BSCS');
+
+        // adding a property to the object we use prototype attribute
+        reg.prototype.nationality = "Ugandan";
+
+        document.getElementById('demo').innerHTML = student1.Name + " is a " + student1.nationality;
+        document.getElementById('demo1').innerHTML = student2.Name + " is also a " + student2.nationality;
+        
+    </script>
+</body>
+</html>
