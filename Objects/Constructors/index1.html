@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascipt objects</title>
+</head>
+<body>
+    <h2>Objects</h2>
+    <p id="demo"></p>
+    <script>
+        function car(name,model,color,cost){
+            this.Name = name;
+            this.Model = model;
+            this.brand = color;
+            this.value = cost;
+        }
+
+        // new car() enables to make car multiple objects 
+        const myCar = new car('Audi','X23Z','white','$1500')
+
+        const hisCar = new car('Benz','GL','blue','$2600')
+
+        document.getElementById('demo').innerHTML = "I have an " + myCar.Name + " while my bro has a " + hisCar.Name + " which costs "+ hisCar.value; 
+    </script>
+</body>
+</html>
