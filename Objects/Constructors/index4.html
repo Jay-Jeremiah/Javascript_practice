@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructors</title>
+</head>
+<body>
+    <h2>Object Constructors</h2>
+    <p id="demo"></p>
+    <script>
+        function person(first,name,age,eye){
+            this.firstName = first;
+            this.lastName = name;
+            this.age = age;
+            this.eye = eye;
+        }
+
+        const myfa = new person("john",'Doe',46,'brown')
+
+        // add to the content of the constructor
+        myfa.changeName = function(name) {
+            this.lastName = name;
+        }
+
+        // changing the last name 
+        myfa.changeName('jay');
+
+        document.getElementById('demo').innerHTML = "His last name is " + myfa.lastName;
+    </script>
+</body>
+</html>
