@@ -9,3 +9,5 @@ const owner = {
 };
 
 document.getElementById('demo').innerHTML = owner.Name + " " + "has" + " " + "a" + " " + owner.myCars.car3;
+
+document.getElementById('demo2').innerHTML = owner['Name'] + " " + "also has an" + " " + owner['myCars']['car2'];
